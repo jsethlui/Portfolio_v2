@@ -8,7 +8,6 @@ const NoMatch: React.FC = () => {
     return <p>Error 404: Path not recognized.</p>;
 };
 
-
 const Main: React.FC = () => {
     return (
         <BrowserRouter>
