@@ -3,27 +3,19 @@
 
 :root {
     --white-gray: rbg(247, 247, 247);
-    --pastel-green: rgb(184, 255, 191);
+    --dark-gray: rgb(17, 19, 22);
+    --pastel-green: rgb(100, 190, 121);
 }
 
 html {
+    background-color: var(--dark-gray);
     scroll-behavior: smooth;
 }
 
 body {
-    color: black;
+    color: white;
     font-family: 'Roboto', sans-serif;
     height: 5000px;
-}
-
-a {
-    color: black;
-    text-decoration: none;
-    transition: 0.5s;
-}
-
-a:hover {
-    opacity: 0.5;
 }
 
 .landing_page_wrapper {
@@ -41,24 +33,29 @@ a:hover {
     /*background: green;*/
 }
 
+@keyframes slideIn {
+    to {left: -50px}
+}
+
 .spine {
     position: absolute;
     top: 0;
-    left: -25px;
+    left: -500px;
 
     height: 100%;
     width: 3px;
-    background: green;
+    background: var(--pastel-green);
+    animation: slideIn 1s forwards;
 }
 
 .spine::before {
     content: "";
     position: absolute;
-    top: -2.5px;
+    top: -2px;
 
     height: 3px;
     width: 3px;
-    background-color: green;
+    background-color: inherit;
     border-radius: 50%;
 }
 
@@ -69,7 +66,7 @@ a:hover {
 
     height: 3px;
     width: 3px;
-    background-color: green;
+    background-color: inherit;
     border-radius: 50%;
 }
 
@@ -90,6 +87,8 @@ a:hover {
     margin-bottom: -20px;
 
     font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
 }
 
 .greetings_wrapper h1 {
@@ -97,10 +96,25 @@ a:hover {
     margin-bottom: 0px;
 
     font-size: 55px;
+    letter-spacing: 2px;
+}
+
+.greetings_wrapper a {
+    text-decoration: none;
+    transition: 0.5s;
+
+    color: var(--pastel-green);
+    filter: brightness(1.5);
+    opacity: 1;
+}
+
+.greetings_wrapper a:hover {
+    opacity: 0.75;
 }
 
 .greetings_wrapper p {
     font-size: 22px;
+    letter-spacing: 1px;
 }
 
 .icon_wrapper {
@@ -109,6 +123,7 @@ a:hover {
 }
 
 .icon {
+    color: white;
     padding-left: 25px;
     padding-right: 25px;
 }

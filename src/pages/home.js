@@ -14,14 +14,17 @@ const Home: React.FC = () => {
                 <h1><a href="https://www.linkedin.com/in/jeremylouie98/" target="_blank" rel="noreferrer">Jeremy Louie</a></h1>
                 <p>I'm currently building software needed to detect water contaminants in refillable water stations at <a href="https://atlas-scientific.com/" target="_blank" rel="noreferrer">Atlas Scientific</a></p>
                 <div className="icon_wrapper">
+                    {/*linkedin*/}
                     <a href="https://www.linkedin.com/in/jeremylouie98/" target="_blank" rel="noreferrer" title="LinkedIn">
                         <Unicons.UilLinkedin size={icon_size} className="icon" />                    
                     </a>
 
+                    {/*github*/}
                     <a href="https://github.com/jsethlui" target="_blank" rel="noreferrer" title="Github">
                         <Unicons.UilGithub size={icon_size} className="icon" />    
                     </a>
 
+                    {/*about me*/}
                     <a href="#about" title="About Me">
                         <Unicons.UilInfoCircle size={icon_size} className="icon" />   
                     </a>
