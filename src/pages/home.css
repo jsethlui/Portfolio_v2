@@ -1,6 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
+@keyframes slideFromLeft {
+    to {left: -50px}
+}
+
+@keyframes fadeIn {
+    to {opacity: 1}
+}
+
 :root {
     --white-gray: rbg(247, 247, 247);
     --dark-gray: rgb(17, 19, 22);
@@ -33,10 +41,6 @@ body {
     /*background: green;*/
 }
 
-@keyframes slideIn {
-    to {left: -50px}
-}
-
 .spine {
     position: absolute;
     top: 0;
@@ -45,7 +49,8 @@ body {
     height: 100%;
     width: 3px;
     background: var(--pastel-green);
-    animation: slideIn 1s forwards;
+    animation: slideFromLeft 1.05s forwards;
+    animation-delay: 0.45s;
 }
 
 .spine::before {
@@ -89,6 +94,10 @@ body {
     font-size: 25px;
     font-weight: 500;
     letter-spacing: 0.75px;
+
+    opacity: 0;
+    animation: fadeIn 2.25s forwards;
+    animation-delay: 0.75s;
 }
 
 .greetings_wrapper h1 {
@@ -97,6 +106,10 @@ body {
 
     font-size: 55px;
     letter-spacing: 2px;
+
+    opacity: 0;
+    animation: fadeIn 1.55s forwards;
+    animation-delay: 1.3s;
 }
 
 .greetings_wrapper a {
@@ -115,11 +128,19 @@ body {
 .greetings_wrapper p {
     font-size: 22px;
     letter-spacing: 1px;
+
+    opacity: 0;
+    animation: fadeIn 1.55s forwards;
+    animation-delay: 1.75s;
 }
 
 .icon_wrapper {
     padding-top: 10px;
     margin-left: -25px;     /*negate by padding-left amount from .icon*/
+
+    opacity: 0;
+    animation: fadeIn 1.55s forwards;
+    animation-delay: 1.75s;
 }
 
 .icon {
