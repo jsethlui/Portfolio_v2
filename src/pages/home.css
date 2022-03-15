@@ -1,4 +1,11 @@
 
+/*@import url("../fonts");*/
+
+@font-face {
+    font-family: "futura-pt";
+    src: local("futura-pt") url("../fonts/Futura Book font.ttf") format("truetype");
+}
+
 @keyframes slideFromLeft {
     to {left: -50px}
 }
@@ -8,20 +15,27 @@
 }
 
 :root {
+    /*https://www.schemecolor.com/pastel-red-monochromatic.php*/
     --white-gray: rbg(247, 247, 247);
+    --pink-white: rgb(244, 236, 232);
     --dark-gray: rgb(17, 19, 22);
     --pastel-red: rgb(253, 98, 102);
 }
 
 html {
-    background-color: var(--white-gray);
     scroll-behavior: smooth;
 }
 
 body {
     color: black;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    /*font-family: -apple-system, BlinkMacSystemFont, sans-serif;*/
+    font-family: "futura-pt";
+
+    padding-left: 100px;
+    padding-right: 100px;
+
     height: 5000px;
+    background-color: var(--white-gray);
 }
 
 .landing_page_wrapper {
@@ -153,3 +167,31 @@ body {
     padding-right: 25px;
 }
 
+.content_wrapper {
+    position: relative;
+    top: 0;
+    left: 50px;
+
+    margin-top: 250px;
+
+    min-height: 75vh;
+    width: 80%;
+
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.content_wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 30%;
+
+    background-color: rgb(248, 133, 139);
+}
+
+/*.content_wrapper h1 {*/
+    /*letter-spacing: 1px;*/
+/*}*/

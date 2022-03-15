@@ -1,12 +1,19 @@
 
-import React from "react";
+import { React, useState } from "react";
 import "./menu.css";
 import { Slant as Hamburger } from 'hamburger-react'
 
-const menuSize = 32.5;
 const Menu: React.FC = () => {
+    const menuSize = 35;
+    const [isOpen, setOpen] = useState(false);
+    const handleToggle = () => {
+        setOpen(!isOpen)
+    };
+
     return (
-        <Hamburger size={menuSize} rounded />
+        <div className="menu_wrapper">
+            <Hamburger size={menuSize} distance="sm" onClick={handleToggle} rounded />
+        </div>
     );
 };
 
