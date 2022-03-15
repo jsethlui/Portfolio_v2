@@ -1,10 +1,5 @@
 
-/*@import url("../fonts");*/
-
-@font-face {
-    font-family: "futura-pt";
-    src: local("futura-pt") url("../fonts/Futura Book font.ttf") format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 @keyframes slideFromLeft {
     to {left: -50px}
@@ -19,7 +14,12 @@
     --white-gray: rbg(247, 247, 247);
     --pink-white: rgb(244, 236, 232);
     --dark-gray: rgb(17, 19, 22);
+
     --pastel-red: rgb(253, 98, 102);
+    --tulip: rgb(248, 133, 139);
+    --coral-reef: rgb(253, 112, 107);
+    --cinnabar: rgb(229, 7u6, 56);
+    --dark-pastel-red: rgb(194, 58, 34);
 }
 
 html {
@@ -28,8 +28,7 @@ html {
 
 body {
     color: black;
-    /*font-family: -apple-system, BlinkMacSystemFont, sans-serif;*/
-    font-family: "futura-pt";
+    font-family: 'Roboto', sans-serif;
 
     padding-left: 100px;
     padding-right: 100px;
@@ -177,21 +176,50 @@ body {
     min-height: 75vh;
     width: 80%;
 
+    border-radius: 10px;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-.content_wrapper::before {
-    content: "";
+.skills_wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    height: 100%;
+    width: 12.5%;
+
+}
+
+.projects_wrapper {
     position: absolute;
     top: 0;
     left: 0;
 
     height: 100%;
-    width: 30%;
-
-    background-color: rgb(248, 133, 139);
+    width: 12.5%;
 }
 
-/*.content_wrapper h1 {*/
-    /*letter-spacing: 1px;*/
-/*}*/
+.cell h3 {
+    margin-top: 15px;
+    margin-bottom: -15px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+
+    color: rgb(200, 200, 200);
+    letter-spacing: 0.5px;
+    text-align: right;
+    font-size: 15px;
+}
+
+.cell p {
+    margin-top: 15px;
+    margin-bottom: -15px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+
+    font-weight: 500;
+    text-align: right;
+    font-size: 30px;
+}
