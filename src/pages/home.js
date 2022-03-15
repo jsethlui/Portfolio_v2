@@ -1,6 +1,7 @@
 
 import React from "react";
 import "./home.css";
+import "./styles/scrollbar.css"
 import { UilLinkedin, UilGithub, UilInfoCircle, UilEnvelope } from "@iconscout/react-unicons";
 import Menu from "./menu";
 import Col from "react-bootstrap/Col";
