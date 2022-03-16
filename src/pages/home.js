@@ -21,7 +21,7 @@ const Home: React.FC = () => {
                     <h1><a href="https://www.linkedin.com/in/jeremylouie98/" target="_blank" rel="noreferrer">Jeremy Louie</a></h1>
                     <p>I'm currently building software needed to detect water contaminants in refillable water stations at <a href="https://atlas-scientific.com/" target="_blank" rel="noreferrer" className="atlas_bold">Atlas Scientific</a></p>
                     <div className="icon_wrapper">
-                        {/*LinkedIn nkedin*/}
+                        {/*LinkedIn*/}
                         <a href="https://www.linkedin.com/in/jeremylouie98/" target="_blank" rel="noreferrer" title="LinkedIn">
                             <UilLinkedin size={iconSize} className="icon" />                    
                         </a>
@@ -46,7 +46,7 @@ const Home: React.FC = () => {
                     {/* skills */}
                     <Row className="cell_wrapper" style={{right: "0"}}>
                         <Col className="cell_right">
-                            <h3>Number of Internships</h3>
+                            <h3>Research Positions</h3>
                             <p>2</p>
                         </Col>
 
@@ -68,17 +68,10 @@ const Home: React.FC = () => {
                     <Row className="cell_wrapper" style={{left: "0"}}>
                         <Col className="cell_left">
                             <h3>Contact Info</h3>
-                            <ul>
-                                <li>San Francisco, CA</li>
-                                <li>
-                                    <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=jsethlui@.ucla.edu" target="_blank" rel="noreferrer">
-                                        <UilEnvelope />
-                                    </a>
-                                </li>
-                            </ul>
+                            <p>San Francisco</p>
                         </Col> 
     
-                         <Col className="cell_left">
+                        <Col className="cell_left">
                             <h3>Interests</h3>
                             <ul>
                                 <li>Software Engineering</li>
