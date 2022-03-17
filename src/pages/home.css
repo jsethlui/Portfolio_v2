@@ -186,6 +186,7 @@ body {
     align-items: center;
     justify-content: center;
 
+    z-index: 1;
     height: 100%;
     width: 20%;
 }
@@ -281,4 +282,31 @@ body {
 .cell_icon_wrapper {
     margin: 0;
     padding: 0;
+}
+
+.avatar_wrapper {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar_wrapper img {
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--tulip);
+    
+    width: 25%;
+    height: 25%;
+    border-radius: 75%;
+}
+
+.avatar_wrapper p {
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+    width: 50%;
 }

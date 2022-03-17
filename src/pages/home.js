@@ -6,6 +6,7 @@ import { UilLinkedin, UilGithub, UilInfoCircle, UilEnvelope } from "@iconscout/r
 import Menu from "./menu";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import Avatar from "../assets/avatar.jpg"
 
 const Home: React.FC = () => {
     const iconSize = 32.5;
@@ -42,7 +43,6 @@ const Home: React.FC = () => {
             {/* about me */}
             <div className="content_wrapper">
                 <div className="surrounding_wrapper">
-
                     {/* skills */}
                     <Row className="cell_wrapper" style={{right: "0"}}>
                         <Col className="cell_right">
@@ -56,21 +56,33 @@ const Home: React.FC = () => {
                         </Col>
 
                         <Col className="cell_right">
-                            <h3>Languages Learned</h3>
-                            <p>6</p>
+                            <h3>Honors Completed</h3>
+                            <p>5</p>
                         </Col>
                     </Row>
 
-                    {/*avatar*/}
-                    <div className="avatar_wrapper">
-                    </div>
+                    <Row className="avatar_wrapper">
+                        <img src={Avatar} alt="avatar" />
+                        <p>
+                            Hi, my name is Jeremy and I enjoy building useable
+                            products!
+                        </p>
+                    </Row>
 
                     <Row className="cell_wrapper" style={{left: "0"}}>
+                        <Col className="cell_left">
+                            <h3>Education</h3>
+                            <ul>
+                                <li>University of California, Los Angeles</li>
+                                <li>City College of San Francisco</li>
+                            </ul>
+                        </Col> 
+
                         <Col className="cell_left">
                             <h3>Contact Info</h3>
                             <p>San Francisco</p>
                         </Col> 
-    
+
                         <Col className="cell_left">
                             <h3>Interests</h3>
                             <ul>
