@@ -18,7 +18,7 @@
     --pastel-red: rgb(253, 98, 102);
     --tulip: rgb(248, 133, 139);
     --coral-reef: rgb(253, 112, 107);
-    --cinnabar: rgb(229, 7u6, 56);
+    --cinnabar: rgb(229, 76, 56);
     --dark-pastel-red: rgb(194, 58, 34);
 }
 
@@ -167,11 +167,12 @@ body {
 .content_wrapper {
     position: relative;
     top: 0;
-    left: 50px;
     margin-top: 250px;
 
-    min-height: 75vh;
-    width: 80%;
+    /*min-height: 0vh;*/
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 
     border-radius: 12.5px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
@@ -285,7 +286,7 @@ body {
 }
 
 .avatar_wrapper {
-    min-height: 75vh;
+    min-height: 65vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -293,13 +294,15 @@ body {
 }
 
 .avatar_wrapper img {
-    border-width: 5px;
+    padding: 5px;
+
+    width: 30%;
+    height: 30%;
+    border-radius: 70%;
+
+    border-width: 4px;
     border-style: solid;
     border-color: var(--tulip);
-    
-    width: 25%;
-    height: 25%;
-    border-radius: 75%;
 }
 
 .avatar_wrapper p {
@@ -309,4 +312,32 @@ body {
     margin-right: 0;
 
     width: 50%;
+}
+
+.about_me {
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 100%;
+    width: 50%;
+
+    z-index: 1;
+    border-radius: 8px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.about_me p {
+    padding: 10px;
+}
+
+.about_me a {
+    color: var(--coral-reef);
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.75s;
+}
+
+.about_me a:hover {
+    opacity: 0.75;
 }

@@ -2,7 +2,9 @@
 import React from "react";
 import "./home.css";
 import "./styles/scrollbar.css"
-import { UilLinkedin, UilGithub, UilInfoCircle, UilEnvelope } from "@iconscout/react-unicons";
+import { UilLinkedin, 
+         UilGithub,
+         UilInfoCircle } from "@iconscout/react-unicons";
 import Menu from "./menu";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
@@ -63,10 +65,6 @@ const Home: React.FC = () => {
 
                     <Row className="avatar_wrapper">
                         <img src={Avatar} alt="avatar" />
-                        <p>
-                            Hi, my name is Jeremy and I enjoy building useable
-                            products!
-                        </p>
                     </Row>
 
                     <Row className="cell_wrapper" style={{left: "0"}}>
@@ -94,7 +92,6 @@ const Home: React.FC = () => {
 
                     </Row>
                 </div>
-                {/*<p>about me</p>*/}
             </div>
         </div>
     );
