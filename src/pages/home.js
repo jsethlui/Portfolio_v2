@@ -10,40 +10,17 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Avatar from "../assets/avatar.jpg"
 
+import Intro from "../components/Intro.js"
+
 const Home: React.FC = () => {
     const iconSize = 32.5;
 
     return (
         <div>
-            {/* initial intro */}
-            <div className="landing_page_wrapper">
-                <Menu className="menu"></Menu>
-                <div className="greetings_wrapper">
-                    <div className="spine" />
-                    <h2>Hello! My name is</h2>
-                    <h1><a href="https://www.linkedin.com/in/jeremylouie98/" target="_blank" rel="noreferrer">Jeremy Louie</a></h1>
-                    <p>I'm currently building software needed to detect water contaminants in refillable water stations at <a href="https://atlas-scientific.com/" target="_blank" rel="noreferrer" className="atlas_bold">Atlas Scientific</a></p>
-                    <div className="icon_wrapper">
-                        {/*LinkedIn*/}
-                        <a href="https://www.linkedin.com/in/jeremylouie98/" target="_blank" rel="noreferrer" title="LinkedIn">
-                            <UilLinkedin size={iconSize} className="icon" />                    
-                        </a>
-
-                        {/*GitHub*/}
-                        <a href="https://github.com/jsethlui" target="_blank" rel="noreferrer" title="Github">
-                            <UilGithub size={iconSize} className="icon" />    
-                        </a>
-
-                        {/*About Me*/}
-                        <a href="#about" title="About Me">
-                            <UilInfoCircle size={iconSize} className="icon" />   
-                        </a>
-                    </div>
-                </div>
-            </div>
+            <Intro />
 
             {/* about me */}
-            <div className="content_wrapper">
+            <div className="content_wrapper" id="about">
                 <div className="surrounding_wrapper">
                     {/* skills */}
                     <Row className="cell_wrapper" style={{right: "0"}}>
