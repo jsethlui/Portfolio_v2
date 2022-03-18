@@ -7,6 +7,7 @@ import { UilLinkedin,
          UilInfoCircle } from "@iconscout/react-unicons";
 import Intro from "./components/Intro.js"
 import About from "./components/About.js"
+import Footer from "./components/Footer.js"
 import Menu from "./menu";
 
 const Home: React.FC = () => {
@@ -17,6 +18,7 @@ const Home: React.FC = () => {
             <Menu />
             <Intro />
             <About />
+            {/*<Footer />*/}
         </div>
     );
 };

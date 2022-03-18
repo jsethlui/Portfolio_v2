@@ -1,5 +1,5 @@
 
-.content_wrapper {
+.about_wrapper {
     position: relative;
     top: 0;
     margin-top: 250px;
@@ -24,7 +24,7 @@
 
     z-index: 1;
     height: 100%;
-    width: 20%;
+    width: 25%;
 }
 
 .cell_right, .cell_left {
@@ -108,9 +108,12 @@
 
 .cell_left li {
     display: flex;
-    padding-bottom: 10px;
+
+    /*padding-bottom: 10px;*/
 
     width: 100%;
+    margin-top: 0;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -149,30 +152,3 @@
     width: 50%;
 }
 
-.about_me {
-    margin-bottom: 100px;
-    margin-left: auto;
-    margin-right: auto;
-
-    height: 100%;
-    width: 50%;
-
-    z-index: 1;
-    border-radius: 8px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
-}
-
-.about_me p {
-    padding: 10px;
-}
-
-.about_me a {
-    color: var(--coral-reef);
-    font-weight: 500;
-    text-decoration: none;
-    transition: 0.75s;
-}
-
-.about_me a:hover {
-    opacity: 0.75;
-}
