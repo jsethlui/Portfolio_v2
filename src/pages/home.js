@@ -1,6 +1,6 @@
 
 import React from "react";
-import "./home.css";
+import "./Home.css";
 import "./scrollbar.css"
 import Intro from "./components/Intro.js"
 import About from "./components/About.js"

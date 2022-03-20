@@ -71,7 +71,7 @@ const About: React.FC = () => {
 
                     <br /><br />
 
-                    Above all, I’m always willing to keep up with the rapidly changing pace of technology by <b className="bold">learning</b> something new everyday
+                    Above all, I’m always willing to keep up with the rapidly changing pace of technology by <b className="bold">learning</b> something new everyday!
                 </p>
             </div>
         </div>
