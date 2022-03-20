@@ -196,23 +196,25 @@
     width: 50%;
 }
 
-.about_me_wrapper {
+.content_wrapper {
     width: 85%;
+
+    margin-top: 50px;
+    margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    /*background: green;*/
 }
 
-.about_me_wrapper h1 {
+.content_wrapper h1 {
     margin: 0;
 
     color: var(--tulip);
     font-weight: 600;
-    letter-spacing: 0.75px;
+    letter-spacing: 1px;
     text-align: left;
 }
 
-.about_me_wrapper p {
+.content_wrapper p {
     margin: 0;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -221,5 +223,5 @@
 
     text-align: left;
     letter-spacing: 0.5px;
-    line-height: 25px;
+    line-height: 22.5px;
 }
