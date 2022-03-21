@@ -3,6 +3,7 @@
 
 :root {
     --light-gray: rgb(200, 200, 200);
+    --ios-gray: rgb(135, 135, 135);
 
     /*https://www.schemecolor.com/pastel-red-monochromatic.php*/
     --pastel-red: rgb(253, 98, 102);

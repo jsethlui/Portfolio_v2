@@ -16,29 +16,15 @@
 }
 
 .react-tabs__tab-list {
-    /*border-bottom: 1px solid #aaa;*/
-    /*margin: 0 0 10px;*/
-    /*padding: 0;*/
-
     margin: 0;
     padding: 0;
-    width: 25%;
-    /*background: green;*/
+    width: 32.5%;
 }
 
 .react-tabs__tab {
-/*    display: inline-block;
-    border: 1px solid transparent;
-    border-bottom: none;
-    bottom: -1px;
-    position: relative;
-    list-style: none;
-    padding: 6px 12px;
-    cursor: pointer;*/
-
     position: relative;
     margin: 15px;
-    padding: 15px;
+    padding: 10px;
 
     font-weight: 500;
     letter-spacing: 0.5px;
@@ -85,16 +71,6 @@
     outline: none;
 }
 
-/*.react-tabs__tab:focus:after {
-    content: '';
-    position: absolute;
-    height: 5px;
-    left: -4px;
-    right: -4px;
-    bottom: -5px;
-    background: #fff;
-}*/
-
 .react-tabs__tab-panel {
     display: none;
     width: 100%;
@@ -102,4 +78,56 @@
 
 .react-tabs__tab-panel--selected {
     display: block;
+}
+
+.tab_panel_cell {
+    text-align: left;
+}
+
+.tab_panel_cell h2 {
+    letter-spacing: 1px;
+}
+
+.tab_panel_cell p {
+    margin-top: -10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+    padding: 0;
+
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: var(--ios-gray);
+}
+
+.tab_panel_cell ul {
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.tab_panel_cell li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.tab_panel_cell li::before {
+    content: "\2022";       /* \2022 is the CSS Code/unicode for a bullet */
+    color: var(--cinnabar);
+
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
