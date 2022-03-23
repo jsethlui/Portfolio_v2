@@ -28,8 +28,8 @@ body {
     background-color: white;
 }
 
-#about {
-    height: 100px;
+#about, #worked {
+    height: 200px;
     width: 100%;
-    background-color: white;
+    background-color: transparent;
 }

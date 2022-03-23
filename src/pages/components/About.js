@@ -75,11 +75,6 @@ const About: React.FC = () => {
                     Above all, I’m always willing to keep up with the rapidly changing pace of technology by <b className="bold">learning</b> something new everyday!
                 </p>
             </div>
-
-            <div className="content_wrapper">
-                <h1>Where I've Worked</h1>
-                <Worked />
-            </div>
         </div>
     );
 };
