@@ -17,7 +17,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+.body {
     color: black;
     font-family: 'Roboto', sans-serif;
 
@@ -26,6 +26,17 @@ body {
 
     height: 2500px;
     background-color: white;
+}
+
+.footer {
+    margin-top: 200px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+
+    color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 #about, #worked, #projects {

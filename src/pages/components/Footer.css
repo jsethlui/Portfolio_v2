@@ -1,18 +1,17 @@
 
 .footer_wrapper {
+    margin: 0;
+    padding: 0;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-    /*left: 0;*/
-    /*width: 120%;*/
-
-    color: white;
+    color: var(--tulip);
+    font-weight: 500;
     font-size: 15px;
-    letter-spacing: 0.75px;
-    background-color: var(--pastel-red);
-    opacity: 0.95;
+    letter-spacing: 0.5px;
 }
 
 .footer_wrapper p {
@@ -21,7 +20,7 @@
 }
 
 .footer_icon_wrapper a {
-    color: white;
+    color: var(--tulip);
     text-decoration: none;
     transition: 0.5s;
 }
@@ -32,12 +31,12 @@
 
 .code_link {
     margin-top: 10px;
-    margin-bottom: 35px;
+    margin-bottom: 10px;
     margin-left: 0;
     margin-right: 0;
     padding: 0;
 
-    color: white;
+    color: var(--tulip);
     text-decoration: none;
     transition: 0.5s;
 }
