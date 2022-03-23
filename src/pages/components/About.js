@@ -4,7 +4,6 @@ import "./About.css";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Avatar from "../../assets/avatar.jpg"
-import Worked from "./Worked.js"
 
 const About: React.FC = () => {
     return (
@@ -59,7 +58,7 @@ const About: React.FC = () => {
                 <h1>About Me</h1>
                 <p>
                     My name is Jeremy, and I enjoy developing <b className="bold">useful products</b> with
-                    a digital eye! Currently, I'm currently a Software Engineer for <b className="bold">Atlas Scientific</b>. 
+                    a digital eye! Currently, I'm currently a Software Developer for <b className="bold">Atlas Scientific</b>. 
                     More specifically, I write <b className="bold">Python</b> programs that have ported over our data (collected from a Raspberry Pi)
                     onto <b className="bold">Google Cloud's Firestone</b> database, and automating our data
                     collection procedures using common <b className="bold">design patterns</b>!

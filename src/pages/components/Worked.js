@@ -5,8 +5,6 @@ import { Tab,
          Tabs,
          TabList,
          TabPanel } from "react-tabs";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
 
 const Worked: React.FC = () => {
     return (
