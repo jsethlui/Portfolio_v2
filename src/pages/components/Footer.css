@@ -1,6 +1,7 @@
 
 .footer_wrapper {
-    margin: 0;
+    position: relative;
+    margin-top: 50px;
     padding: 0;
 
     display: flex;
