@@ -4,6 +4,7 @@ import "./Intro.css";
 import { UilLinkedin, 
          UilGithub,
          UilInfoCircle } from "@iconscout/react-unicons";
+import Typewriter from 'typewriter-effect';
 
 const Intro: React.FC = () => {
     const iconSize = 32.5;
@@ -15,7 +16,20 @@ const Intro: React.FC = () => {
                     <div className="spine" />
                     <h2>Hello! My name is</h2>
                     <h1><a href="https://www.linkedin.com/in/jeremylouie98/" target="_blank" rel="noreferrer">Jeremy Louie</a></h1>
-                    <p>I'm currently building software needed to detect water contaminants in refillable water stations at <a href="https://atlas-scientific.com/" target="_blank" rel="noreferrer" className="atlas_bold">Atlas Scientific</a></p>
+                    <div className="i_am_wrapper">
+                        <p>I am a&nbsp;</p>
+                        <span className="adjective">
+                            <Typewriter
+                                options={{
+                                    strings: ["programmer", "software developer", "coffee enthusiast"],
+                                    autoStart: true,
+                                    delay: 100,
+                                    loop: true,
+                                }}
+                            />
+                        </span>
+                    </div>
+
                     <div className="icon_wrapper">
                         {/*LinkedIn*/}
                         <a href="https://www.linkedin.com/in/jeremylouie98/" target="_blank" rel="noreferrer" title="LinkedIn">
