@@ -1,6 +1,5 @@
 
 import React from "react";
-import Link from "react-router-dom";
 import "./Thanks.css";
 
 const Thanks: React.FC = () => {
@@ -12,9 +11,10 @@ const Thanks: React.FC = () => {
                 that are open. Alternatively, I'm also open if you would
                 like to stop by and chat. In any case, let's <b className="bold">connect</b>!
             </p>
-            <Link to="/">
-                <p>test</p>
-            </Link>
+
+            <div className="contact_button">
+                <p>Contact</p>
+            </div>
         </div>
     );
 };
