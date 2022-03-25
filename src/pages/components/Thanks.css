@@ -1,0 +1,21 @@
+
+.thanks_wrapper {
+
+}
+
+.thanks_wrapper h1 {
+    letter-spacing: 0.75px;
+}
+
+.thanks_wrapper p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+    letter-spacing: 0.5px;
+}
+
+.bold {
+    display: inline-flex;
+    font-weight: 500;
+}

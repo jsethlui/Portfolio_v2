@@ -37,7 +37,7 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-#about, #worked, #projects {
+#about, #worked, #projects, #thanks {
     height: 200px;
     width: 100%;
     background-color: transparent;
