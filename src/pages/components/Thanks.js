@@ -1,6 +1,8 @@
 
-import React from "react";
+import React from "react"
+import { Link } from "react-router-dom"
 import "./Thanks.css";
+import Button from "react-bootstrap/Button"
 
 const Thanks: React.FC = () => {
     return (
@@ -12,9 +14,11 @@ const Thanks: React.FC = () => {
                 like to stop by and chat. In any case, let's <b className="bold">connect</b>!
             </p>
 
-            <div className="contact_button">
-                <p>Contact</p>
-            </div>
+            <Link to="/contact" className="link">
+                <Button className="contact_button">
+                    <p>Contact</p>
+                </Button>
+            </Link>
         </div>
     );
 };

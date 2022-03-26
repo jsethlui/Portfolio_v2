@@ -42,3 +42,25 @@ html {
     width: 100%;
     background-color: transparent;
 }
+
+.skills_wrapper {
+    position: relative;
+    display: flex;
+
+    margin-top: -5px;
+    margin-bottom: 0px;
+
+    padding: 0;
+
+    color: var(--ios-gray);
+}
+
+.skills_wrapper p {
+    padding-top: 20px !important;
+    padding-bottom: 5px !important;
+}
+
+.bullet {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}

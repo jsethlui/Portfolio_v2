@@ -1,15 +1,22 @@
 
-import React from "react";
+import React from "react"
 import "./Worked.css"
 import { Tab,
          Tabs,
          TabList,
-         TabPanel } from "react-tabs";
+         TabPanel } from "react-tabs"
 
 const Worked: React.FC = () => {
     return (
         <div className="worked_wrapper">
             <h1>Where I've Worked</h1>
+            <div className="skills_wrapper">
+                <p>Software Development</p>
+                <p className="bullet">•</p>
+                <p>Web Design</p>
+                <p className="bullet">•</p>
+                <p>Instruction</p>
+            </div>
             <Tabs style={{display: "flex"}}>
                 <TabList>
                     <Tab>Atlas Scientific</Tab>

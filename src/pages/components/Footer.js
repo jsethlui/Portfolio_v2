@@ -1,9 +1,9 @@
 
-import React from "react";
-import "./Footer.css";
+import React from "react"
+import "./Footer.css"
 import { UilLinkedin, 
          UilGithub,
-         UilEnvelope } from "@iconscout/react-unicons";
+         UilEnvelope } from "@iconscout/react-unicons"
 
 const Footer: React.FC = () => {
     return (

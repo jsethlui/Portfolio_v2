@@ -1,10 +1,10 @@
 
-import React from "react";
-import "./Intro.css";
+import React from "react"
+import "./Intro.css"
 import { UilLinkedin, 
          UilGithub,
-         UilInfoCircle } from "@iconscout/react-unicons";
-import Typewriter from 'typewriter-effect';
+         UilInfoCircle } from "@iconscout/react-unicons"
+import Typewriter from 'typewriter-effect'
 
 const Intro: React.FC = () => {
     const iconSize = 32.5;

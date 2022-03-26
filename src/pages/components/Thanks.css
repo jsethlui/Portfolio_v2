@@ -21,26 +21,34 @@
     font-weight: 500;
 }
 
+.link a {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.link a:hover {
+    opacity: 0.75;
+}
+
 .contact_button {
     height: 75px;
     width: 150px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
     border-radius: 20px;
     border-width: 4.5px;
     border-style: solid;
     border-color: var(--cinnabar);
+
+    cursor: pointer;
+    z-index: 2; 
 }
 
 .contact_button p {
+    width: 100%;
+    text-align: center;
+
     color: var(--cinnabar);
     font-size: 20px;
     font-weight: 600;

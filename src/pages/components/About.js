@@ -1,8 +1,8 @@
 
-import React from "react";
-import "./About.css";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+import React from "react"
+import "./About.css"
+import Col from "react-bootstrap/Col"
+import Row from "react-bootstrap/Row"
 import Avatar from "../../assets/avatar.jpg"
 
 const About: React.FC = () => {
@@ -56,6 +56,13 @@ const About: React.FC = () => {
 
             <div className="content_wrapper">
                 <h1>About Me</h1>
+                <div className="skills_wrapper">
+                    <p>Education</p>
+                    <p className="bullet">•</p>
+                    <p>Interests</p>
+                    <p className="bullet">•</p>
+                    <p>Hobbies</p>
+                </div>
                 <p>
                     My name is Jeremy, and I enjoy developing <b className="bold">useful products</b> with
                     a digital eye! Currently, I'm currently a Software Developer for <b className="bold">Atlas Scientific</b>. 
