@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
                     <UilLinkedin className="footer_icon" />
                 </a>
 
-                <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=jsethlui@g.ucla.edu" target="_blank" rel="noreferrer">
+                <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=%6A%73%65%74%68%6C%75%69%40%67%2E%75%63%6C%61%2E%65%64%75" target="_blank" rel="noreferrer">
                     <UilEnvelope className="footer_icon" />
                 </a>
 
