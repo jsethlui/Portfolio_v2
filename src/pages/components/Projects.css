@@ -23,9 +23,6 @@
 }
 
 .cards_wrapper {
-
+    display: flex;
 }
 
-.card {
-    background: green;
-}

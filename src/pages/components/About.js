@@ -35,7 +35,8 @@ const About: React.FC = () => {
                     <Col className="cell_left">
                         <h3>Education</h3>
                         <ul>
-                            <li>University of California, Los Angeles</li>
+                            <li>University of California – Los Angeles</li>
+                            <li><a href="https://catalog.registrar.ucla.edu/major/2021/MathematicsofComputationBS" target="_blank" rel="noreferrer">Mathematics of Computation</a></li>
                         </ul>
                     </Col> 
 
