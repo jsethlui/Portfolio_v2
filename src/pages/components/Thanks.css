@@ -40,9 +40,14 @@
     border-width: 4.5px;
     border-style: solid;
     border-color: var(--cinnabar);
+    background-color: white;
 
     cursor: pointer;
-    z-index: 2; 
+    transition: 0.5s;
+}
+
+.contact_button:hover {
+    opacity: 0.75;
 }
 
 .contact_button p {

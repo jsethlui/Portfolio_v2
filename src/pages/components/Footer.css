@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
 
-    color: var(--tulip);
+    color: var(--coral-reef);
     font-weight: 500;
     font-size: 15px;
     letter-spacing: 0.5px;
@@ -21,7 +21,7 @@
 }
 
 .footer_icon_wrapper a {
-    color: var(--tulip);
+    color: var(--coral-reef);
     text-decoration: none;
     transition: 0.5s;
 }
@@ -37,7 +37,7 @@
     margin-right: 0;
     padding: 0;
 
-    color: var(--tulip);
+    color: var(--coral-reef);
     text-decoration: none;
     transition: 0.5s;
 }

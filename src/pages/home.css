@@ -56,6 +56,7 @@ html {
 }
 
 .skills_wrapper p {
+    margin: 0;
     padding-top: 20px !important;
     padding-bottom: 5px !important;
 }

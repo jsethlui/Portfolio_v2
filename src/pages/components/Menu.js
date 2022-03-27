@@ -1,6 +1,6 @@
 
 import { React, useState } from "react";
-import "./menu.css";
+import "./Menu.css";
 import { Slant as Hamburger } from 'hamburger-react'
 
 const Menu: React.FC = () => {
