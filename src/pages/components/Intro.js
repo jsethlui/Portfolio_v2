@@ -15,7 +15,11 @@ const Intro: React.FC = () => {
                 <div className="greetings_wrapper">
                     <div className="spine" />
                     <h2>Hello! My name is</h2>
-                    <h1><a href="https://www.linkedin.com/in/jeremylouie98/" target="_blank" rel="noreferrer">Jeremy Louie</a></h1>
+                    <h1>
+                        <a href="https://www.linkedin.com/in/jeremylouie98/" target="_blank" rel="noreferrer" className="animated_link">
+                            Jeremy Louie
+                        </a>
+                    </h1>
                     <div className="i_am_wrapper">
                         <p>I am a&nbsp;</p>
                         <span className="adjective">
@@ -33,17 +37,17 @@ const Intro: React.FC = () => {
 
                     <div className="icon_wrapper">
                         {/*LinkedIn*/}
-                        <a href="https://www.linkedin.com/in/jeremylouie98/" target="_blank" rel="noreferrer" title="LinkedIn">
+                        <a href="https://www.linkedin.com/in/jeremylouie98/" target="_blank" rel="noreferrer" title="LinkedIn" className="animated_link">
                             <UilLinkedin size={iconSize} className="icon" />                    
                         </a>
 
                         {/*GitHub*/}
-                        <a href="https://github.com/jsethlui" target="_blank" rel="noreferrer" title="Github">
+                        <a href="https://github.com/jsethlui" target="_blank" rel="noreferrer" title="Github" className="animated_link">
                             <UilGithub size={iconSize} className="icon" />    
                         </a>
 
                         {/*About Me*/}
-                        <a href="#about" title="About Me">
+                        <a href="#about" title="About Me" className="animated_link">
                             <UilInfoCircle size={iconSize} className="icon" />   
                         </a>
                     </div>

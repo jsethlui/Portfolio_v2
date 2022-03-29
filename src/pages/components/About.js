@@ -28,7 +28,9 @@ const About: React.FC = () => {
                 </Row>
 
                 <Row className="avatar_wrapper">
-                    <img src={Avatar} alt="avatar" />
+                    <a href="https://www.linkedin.com/in/jeremylouie98/" target="_blank" rel="noreferrer" className="animated_link">
+                        <img src={Avatar} alt="avatar" />
+                    </a>
                 </Row>
 
                 <Row className="cell_wrapper" style={{left: "0"}}>
@@ -36,7 +38,7 @@ const About: React.FC = () => {
                         <h3>Education</h3>
                         <ul>
                             <li>University of California – Los Angeles</li>
-                            <li><a href="https://catalog.registrar.ucla.edu/major/2021/MathematicsofComputationBS" target="_blank" rel="noreferrer">Mathematics of Computation</a></li>
+                            <li><a href="https://catalog.registrar.ucla.edu/major/2021/MathematicsofComputationBS" target="_blank" rel="noreferrer" className="animated_link">Mathematics of Computation</a></li>
                         </ul>
                     </Col> 
 

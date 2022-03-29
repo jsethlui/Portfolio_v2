@@ -65,3 +65,13 @@ html {
     padding-left: 10px !important;
     padding-right: 10px !important;
 }
+
+.animated_link {
+    display: inline-block;
+    text-decoration: none;
+    transition: transform .3s ease-out;
+}
+
+.animated_link:hover {
+    transform: translate(0, -2.5px);
+}
