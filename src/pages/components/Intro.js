@@ -34,7 +34,7 @@ const Intro: React.FC = () => {
                         </span>
                     </div>
                     <p className="more_about">
-                        I'm currently writing software needed to store data concerning water contaminants for <a href="https://atlas-scientific.com/?gclid=CjwKCAjwoduRBhA4EiwACL5RPxZBJaxTNNsfTJ2gFKxVIYw2wRsUgp9IjIgWa1LeARFWNCAu9FWRjRoCTtcQAvD_BwE" target="_blank" rel="noreferrer" className="animated_link" style={{fontWeight: "500"}}> Atlas Scientific</a>
+                        I'm currently writing software needed to store data concerning water contaminants for <a href="https://atlas-scientific.com/?gclid=CjwKCAjwoduRBhA4EiwACL5RPxZBJaxTNNsfTJ2gFKxVIYw2wRsUgp9IjIgWa1LeARFWNCAu9FWRjRoCTtcQAvD_BwE" target="_blank" rel="noreferrer" style={{fontWeight: "500"}}> Atlas Scientific</a>
                     </p>
 
                     <div className="icon_wrapper">
