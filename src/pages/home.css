@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+    --light-gray: rgb(200, 200, 200);
+    --ios-gray: rgb(135, 135, 135);
+
+    /*https://www.schemecolor.com/pastel-red-monochromatic.php*/
+    --pastel-red: rgb(253, 98, 102);
+    --tulip: rgb(248, 133, 139);
+    --coral-reef: rgb(253, 112, 107);
+    --cinnabar: rgb(229, 76, 56);
+    --dark-pastel-red: rgb(194, 58, 34);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: white;
+}
+
+.footer {
+    margin-top: 200px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#about, #worked, #projects, #thanks {
+    height: 200px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.skills_wrapper {
+    position: relative;
+    display: flex;
+
+    margin-top: -5px;
+    margin-bottom: 0px;
+
+    padding: 0;
+
+    color: var(--ios-gray);
+}
+
+.skills_wrapper p {
+    margin: 0;
+    padding-top: 20px !important;
+    padding-bottom: 5px !important;
+}
+
+.bullet {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}

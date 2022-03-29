@@ -1,0 +1,69 @@
+
+.thanks_wrapper {
+    margin-top: 100px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.thanks_wrapper h1 {
+    letter-spacing: 0.75px;
+}
+
+.thanks_wrapper p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+
+.bold {
+    display: inline-flex;
+    font-weight: 500;
+}
+
+.link a {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.link a:hover {
+    opacity: 0.75;
+}
+
+.contact_button {
+    height: 75px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+    border-radius: 20px;
+    border-width: 4.5px;
+    border-style: solid;
+    border-color: var(--cinnabar);
+    background-color: white;
+
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact_button:hover {
+    opacity: 0.75;
+}
+
+.contact_button p {
+    width: 100%;
+    text-align: center;
+
+    color: var(--cinnabar);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.contact_button a {
+    color: var(--cinabar);
+    text-decoration: none;
+}
