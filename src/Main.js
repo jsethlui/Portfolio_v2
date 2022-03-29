@@ -1,8 +1,8 @@
 
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/home";
-import Contact from "./pages/contact";
+import Home from "./pages/Home.js";
+import Contact from "./pages/Contact";
 
 const NoMatch: React.FC = () => {
     return <p>Error 404: Path not recognized.</p>;
