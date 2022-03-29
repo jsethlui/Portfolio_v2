@@ -29,7 +29,7 @@ const Worked: React.FC = () => {
                 <TabPanel>
                     <div className="tab_panel_cell">
                         <h2>
-                            <a href="https://atlas-scientific.com/?gclid=CjwKCAjwoduRBhA4EiwACL5RPxZBJaxTNNsfTJ2gFKxVIYw2wRsUgp9IjIgWa1LeARFWNCAu9FWRjRoCTtcQAvD_BwE" target="_blank" rel="noreferrer">
+                            <a href="https://atlas-scientific.com/?gclid=CjwKCAjwoduRBhA4EiwACL5RPxZBJaxTNNsfTJ2gFKxVIYw2wRsUgp9IjIgWa1LeARFWNCAu9FWRjRoCTtcQAvD_BwE" target="_blank" rel="noreferrer" className="animated_link">
                                 Software Developer
                             </a>
                         </h2>
@@ -55,7 +55,7 @@ const Worked: React.FC = () => {
                 <TabPanel>
                     <div className="tab_panel_cell">
                         <h2>
-                            <a href="https://scaledautonomousracing.github.io/PocketRacer/" target="_blank" rel="noreferrer">
+                            <a href="https://scaledautonomousracing.github.io/PocketRacer/" target="_blank" rel="noreferrer" className="animated_link">
                                 Website Developer & Researcher
                             </a>
                         </h2>
@@ -81,7 +81,7 @@ const Worked: React.FC = () => {
                 <TabPanel>
                     <div className="tab_panel_cell">
                         <h2>
-                            <a href="https://junilearning.com/?utm_source=GoogleAdsBrand&utm_medium=CPC&utm_campaign=Search_Branding&utm_term=SB_MainBrandKeywords&campaignid=12948300383&adgroupid=124512289849&adid=572793634987&gclid=CjwKCAjwoduRBhA4EiwACL5RP2nJjEFXp4f5-OV8A8rOHy9MClDVjSkDKkZxPHtkLzqQIg0LsO0sahoC7zsQAvD_BwE" target="_blank" rel="noreferrer">
+                            <a href="https://junilearning.com/?utm_source=GoogleAdsBrand&utm_medium=CPC&utm_campaign=Search_Branding&utm_term=SB_MainBrandKeywords&campaignid=12948300383&adgroupid=124512289849&adid=572793634987&gclid=CjwKCAjwoduRBhA4EiwACL5RP2nJjEFXp4f5-OV8A8rOHy9MClDVjSkDKkZxPHtkLzqQIg0LsO0sahoC7zsQAvD_BwE" target="_blank" rel="noreferrer" className="animated_link" className="animated_link">
                                 Computer Science Instructor
                             </a>
                         </h2>
