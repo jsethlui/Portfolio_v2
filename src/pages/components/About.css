@@ -215,3 +215,9 @@
     letter-spacing: 0.5px;
     line-height: 22.5px;
 }
+
+.content_wrapper a {
+    color: var(--cinnabar);
+    font-weight: 500;
+    text-decoration: none;
+}
