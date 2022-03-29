@@ -65,16 +65,16 @@ const About: React.FC = () => {
                     <p>Hobbies</p>
                 </div>
                 <p>
-                    My name is Jeremy, and I enjoy developing <b className="bold">useful products</b> with
-                    a digital eye! Currently, I'm currently a Software Developer for <b className="bold">Atlas Scientific</b>. 
-                    More specifically, I write <b className="bold">Python</b> programs that have ported over our data (collected from a Raspberry Pi)
-                    onto <b className="bold">Google Cloud's Firestone</b> database, and automating our data
-                    collection procedures using common <b className="bold">design patterns</b>!
+                    My name is Jeremy, and I enjoy developing useful products with
+                    a digital eye! Having graduated from <a href="https://www.ucla.edu/" target="_blank" rel="noreferrer">University of California, Los Angeles</a> with a degree in <a href="https://catalog.registrar.ucla.edu/major/2021/MathematicsofComputationBS" target="_blank" rel="noreferrer">Mathematics of Computation</a>, I'm currently a Software Developer for <a href="https://atlas-scientific.com/?gclid=CjwKCAjwoduRBhA4EiwACL5RPxZBJaxTNNsfTJ2gFKxVIYw2wRsUgp9IjIgWa1LeARFWNCAu9FWRjRoCTtcQAvD_BwE" target="_blank" rel="noreferrer">Atlas Scientific</a>. 
+                    More specifically, I write Python programs that have ported over our data (collected from a Raspberry Pi)
+                    onto <a href="https://firebase.google.com/docs/firestore" target="_blank" rel="noreferrer">Google Cloud's Firestone</a> database, and automating our data
+                    collection procedures using common design patterns!
 
                     <br /><br />
 
                     While programming has given me many sleepless nights, it also give rise to
-                    my <b className="bold">coffee</b> addiction! In fact, I love exploring different cities and their trying unique coffee flavor
+                    my coffee addiction! In fact, I love exploring different cities and their trying unique coffee flavor
                     profiles. 
 
                     <br /><br />

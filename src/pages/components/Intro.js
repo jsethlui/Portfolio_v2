@@ -29,6 +29,7 @@ const Intro: React.FC = () => {
                             />
                         </span>
                     </div>
+                    {/*<p>I'm currently writing software needed to store data concerning water contaminants for Atlas Scientific</p>*/}
 
                     <div className="icon_wrapper">
                         {/*LinkedIn*/}
