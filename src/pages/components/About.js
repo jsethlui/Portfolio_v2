@@ -30,7 +30,7 @@ const About: React.FC = () => {
 
                 <Row className="avatar_wrapper">
                     <a href="https://www.linkedin.com/in/jeremylouie98/" target="_blank" rel="noreferrer" className="animated_link">
-                        <img src={Avatar} alt="avatar" />
+                        <img src={Avatar} alt="avatar" title="LinkedIn" />
                     </a>
                 </Row>
 

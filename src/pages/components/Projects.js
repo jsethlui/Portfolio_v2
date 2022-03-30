@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
             {/*zoomie roomies*/}
             <div className="cards_wrapper">
                 <div className="image_wrapper">
-                    <a href="https://use-zoomie-roomies.herokuapp.com/" target="_blank" rel="noreferrer" title="Zoomie Roomies"> 
+                    <a href="https://use-zoomie-roomies.herokuapp.com/" target="_blank" rel="noreferrer" title="Zoomie Roomies" className="animated_link"> 
                         <Image src={zoomieRoomies} responsive />
                     </a>
                     <div>
@@ -80,7 +80,7 @@ const Projects: React.FC = () => {
             {/*runge kutta*/}
             <div className="cards_wrapper">
                 <div className="image_wrapper">
-                    <a href="https://github.com/jsethlui/What-is-the-best-Runge-Kutta-Method-/blob/main/4th_Order_Runge_Kutta_Method_Analysis.ipynb" target="_blank" rel="noreferrer" title="Jupyter Notebook"> 
+                    <a href="https://github.com/jsethlui/What-is-the-best-Runge-Kutta-Method-/blob/main/4th_Order_Runge_Kutta_Method_Analysis.ipynb" target="_blank" rel="noreferrer" title="Jupyter Notebook" className="animated_link">
                         <Image src={rungeKutta} responsive />
                     </a>
                     <div>
