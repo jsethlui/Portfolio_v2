@@ -1,7 +1,9 @@
 
 .projects_wrapper {
+    position: relative;
     padding: 50px;
     width: 80%;
+    display: flex;
 
     margin-top: 50px;
     margin-bottom: 0px;
@@ -115,4 +117,27 @@
     font-weight: bold;
     display: inline-block;
     width: 1em;
+}
+
+/*-------------------------------------------*/
+
+.image_card_wrapper {
+    position: absolute;
+    top: 5%;
+    right: -7.5%;
+
+    margin: 0;
+    padding: 0;
+
+    height: 250px;
+    width: 250px;
+
+    background: green;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    z-index: 2;
+}
+
+.image_card_wrapper.active {
+    background-color: red;
 }
