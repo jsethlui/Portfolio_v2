@@ -129,10 +129,11 @@
     margin: 0;
     padding: 0;
 
-    height: 250px;
-    width: 250px;
+    height: 50vh;
+    width: 25vw;
 
     background: green;
+    transition: opacity 0.4s ease, transform 0.5s ease;
     border-radius: 10px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
     z-index: 2;
@@ -140,4 +141,33 @@
 
 .image_card_wrapper.active {
     background-color: red;
+}
+
+.card {
+    margin: 0;
+    padding: 0;
+
+    height: auto;
+    max-width: 80%;
+    text-align: left;
+
+    letter-spacing: 0.5px;
+    line-height: 22.5px;
+}
+
+.card h3 {
+    font-size: 24px;
+}
+
+.card a {
+    color: var(--tulip);
+    font-weight: 500;
+
+    opacity: 1;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.card a:hover {
+    opacity: 0.75;
 }
