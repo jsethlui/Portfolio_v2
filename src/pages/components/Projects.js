@@ -67,10 +67,41 @@ const Projects: React.FC = () => {
                     </div>
                 </Col>
 
-{/*                <Col className="card">
-                    <h3>Runge Kutta</h3>
-                    <h4>Student Researcher</h4>
-                </Col>*/}
+                <Col className="card">
+                    <div className="card_icons_wrapper">
+                        <a href="https://github.com/jsethlui/What-is-the-best-Runge-Kutta-Method-" target="_blank" rel="noreferrer" title="GitHub Repo">
+                            <UilGithub size={iconSize} className="card_icon" />
+                        </a>
+
+                        <a href="https://github.com/jsethlui/What-is-the-best-Runge-Kutta-Method-/blob/main/4th_Order_Runge_Kutta_Method_Analysis.ipynb" target="_blank" rel="noreferrer" title="Runge Kutta Analysis"> 
+                            <UilExternalLinkAlt size={iconSize} className="card_icon" />
+                        </a>
+                    </div>
+
+                    <a href="https://github.com/jsethlui/What-is-the-best-Runge-Kutta-Method-/blob/main/4th_Order_Runge_Kutta_Method_Analysis.ipynb" target="_blank" rel="noreferrer" title="Runge Kutta Analysis" className="animated_link">
+                        <Image src={rungeKutta} className="runge_kutta_image" />
+                    </a>
+                    <div className="card_background_wrapper">
+                        <div className="paragraph_cell">
+                            <a href="https://github.com/jsethlui/What-is-the-best-Runge-Kutta-Method-/blob/main/4th_Order_Runge_Kutta_Method_Analysis.ipynb" target="_blank" rel="noreferrer" title="Runge Kutta Analysis" className="animated_link">
+                                <div className="card_title_wrapper">
+                                    <UilAngleLeft size={30} />
+                                    <h3>Runge Kutta Analysis</h3>
+                                    <UilAngleRight size={30} className="arrow" />
+                                </div>
+                            </a>
+                            <p>
+                                The Runge Kutta (RK) Method is an iterative time-step method
+                                used to approximate ordinary differential equations (ODE's) around some fixed point. 
+
+                                <br/ ><br />
+
+                                Using <a href="https://github.com/jsethlui/What-is-the-best-Runge-Kutta-Method-/blob/main/4th_Order_Runge_Kutta_Method_Analysis.ipynb" target="_blank" rel="noreferrer" title="Runge Kutta Analysis">Jupyter Notebook</a>, I use Python and other math libraries to examine whether the standard
+                                or the weighted variation RK Methods succeed better in approximating some ODE's 
+                            </p>
+                        </div>
+                    </div>
+                </Col>
             </Row>
         </div>
     );
