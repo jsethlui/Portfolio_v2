@@ -71,11 +71,6 @@
 }
 
 .react-tabs__tab--selected {
-/*    background: #fff;
-    border-color: #aaa;
-    color: black;
-    border-radius: 5px 5px 0 0;*/
-
     font-weight: 500;
     letter-spacing: 0.5px;
     color: var(--tulip);

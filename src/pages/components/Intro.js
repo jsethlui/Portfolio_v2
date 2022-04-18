@@ -7,7 +7,7 @@ import { UilLinkedin,
 import Typewriter from 'typewriter-effect'
 
 const Intro: React.FC = () => {
-    const iconSize = 32.5;
+    const iconSize = 35;
     return (
         <div>
             {/* initial intro */}
@@ -33,7 +33,9 @@ const Intro: React.FC = () => {
                             />
                         </span>
                     </div>
-                    {/*<p>I'm currently writing software needed to store data concerning water contaminants for Atlas Scientific</p>*/}
+                    <p className="more_about">
+                        I'm currently writing software needed to store data concerning water contaminants for <a href="https://atlas-scientific.com/?gclid=CjwKCAjwoduRBhA4EiwACL5RPxZBJaxTNNsfTJ2gFKxVIYw2wRsUgp9IjIgWa1LeARFWNCAu9FWRjRoCTtcQAvD_BwE" target="_blank" rel="noreferrer" style={{fontWeight: "500"}}> Atlas Scientific</a>
+                    </p>
 
                     <div className="icon_wrapper">
                         {/*LinkedIn*/}

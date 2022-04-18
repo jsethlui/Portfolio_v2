@@ -12,23 +12,21 @@ import Menu from "./components/Menu.js"
 
 const Home: React.FC = () => {
     return (
-        <div>
-            <div className="body">
-                <Menu />
-                <Intro />
-                
-                <div id="about" />
-                <About />
+        <div className="body">
+            <Menu />
+            <Intro />
+            
+            <div id="about" />
+            <About />
 
-                <div id="worked" />
-                <Worked />
+            <div id="worked" />
+            <Worked />
 
-                <div id="projects" />
-                <Projects />
+            <div id="projects" />
+            <Projects />
 
-                <div id="thanks" />
-                <Thanks />
-            </div>
+            <div id="thanks" />
+            <Thanks />
 
             <div className="footer">
                 <Footer />

@@ -5,7 +5,7 @@ import { Slant as Hamburger } from 'hamburger-react'
 
 const Menu: React.FC = () => {
     const menuSize = 35;
-
+    
     const dropDownRef = useRef(null);
     const [isOpen, setOpen] = useState(false);
     const handleToggle = () => {
