@@ -201,3 +201,16 @@
 .paragraph_cell a:hover {
     opacity: 0.65;
 }
+
+@media only screen and (max-width: 768px) {
+    .custom_row {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
