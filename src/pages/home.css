@@ -73,5 +73,5 @@ html {
 }
 
 .animated_link:hover {
-    transform: translate(0, -2.5px);
+    transform: translate(0, -3px);
 }
