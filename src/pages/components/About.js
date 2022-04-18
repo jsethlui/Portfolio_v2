@@ -77,7 +77,7 @@ const About: React.FC = () => {
                     <br /><br />
 
                     While programming has given me many sleepless nights, it also give rise to
-                    my coffee addiction! In fact, I love exploring different cities and their trying unique coffee flavor
+                    my coffee addiction. In fact, I love exploring different cities and their trying unique coffee flavor
                     profiles. 
 
                     <br /><br />
