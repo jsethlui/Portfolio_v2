@@ -38,7 +38,7 @@ html {
 }
 
 #about, #worked, #projects, #thanks {
-    height: 200px;
+    height: 100px;
     width: 100%;
     background-color: transparent;
 }
