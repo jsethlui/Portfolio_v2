@@ -25,6 +25,12 @@
 
 .custom_row {
     display: flex;
+
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+
     align-items: center;
     justify-content: center;    
 }
