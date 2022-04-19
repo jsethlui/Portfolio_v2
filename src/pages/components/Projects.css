@@ -36,7 +36,6 @@
 }
 
 .card {
-    position: relative;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 25px;
@@ -49,7 +48,9 @@
 }
 
 .card_icons_wrapper {
-    position: absolute;
+    position: relative;
+    float: right;
+
     display: flex;
     top: 0;
     right: 0;
@@ -60,17 +61,18 @@
     margin-right: 0;
 
     color: white;
+    /*background: green;*/
     z-index: 99 !important;
 }
 
 .card_icons_wrapper a {
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 10px;
+    margin-right: 15px;
+    margin-left: 0px;
 
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
     
     opacity: 1;
     color: white;
@@ -107,12 +109,12 @@
 .zoomie_roomie_image {
     margin-top: 75px;
     margin-bottom: -50px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding: 0;
 
     height: auto;
-    max-width: 85%;
+    max-width: 82.5%;
 
     z-index: 1;
     border-radius: 10px;
@@ -122,12 +124,12 @@
 .runge_kutta_image {
     margin-top: 75px;
     margin-bottom: -50px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding: 0;
 
     height: auto;
-    max-width: 70%;
+    max-width: 75%;
 
     z-index: 1;
     border-radius: 10px;
@@ -136,10 +138,13 @@
 
 .card_background_wrapper {
     margin: 0;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
 
     width: auto;
-    height: 400px;
+    max-height: auto;
 
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -158,7 +163,6 @@
     height: auto;
     max-width: 85%;
 
-    z-index: 1;
     border-radius: 15px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
@@ -196,4 +200,17 @@
 
 .paragraph_cell a:hover {
     opacity: 0.65;
+}
+
+@media only screen and (max-width: 768px) {
+    .custom_row {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
