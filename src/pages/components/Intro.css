@@ -150,6 +150,7 @@
 }
 
 .icon_wrapper {
+    display: flex;
     padding-top: 10px;
     margin-left: -25px;     /*negate by padding-left amount from .icon*/
 
@@ -162,4 +163,19 @@
     color: var(--pastel-red);
     padding-left: 25px;
     padding-right: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .landing_page_wrapper {
+        top: 5vh;
+        left: -5vw;
+    }
+
+    .greetings_wrapper a {
+        width: 120%;
+    }
+
+    .more_about {
+        width: 125%;
+    }
 }

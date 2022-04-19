@@ -194,3 +194,17 @@
 .tools_wrapper li::before {
     content: "▸";
 }
+
+@media only screen and (max-width: 768px) {
+    .react-tabs__tab-list {
+        margin-left: -40px;
+    }
+
+    .tab_panel_cell {
+        width: 80%;
+    }
+
+    .tools_wrapper ul {
+        width: 25%;
+    }
+}
