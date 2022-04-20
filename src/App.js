@@ -4,7 +4,7 @@ import ReactGA from 'react-ga';
 import "./App.css";
 import Main from "./Main";
 
-const TRACKING_ID = "UA-199894373-2";
+const TRACKING_ID = "UA-226515105-1";
 ReactGA.initialize(TRACKING_ID);
 
 const App: React.FC = () => {

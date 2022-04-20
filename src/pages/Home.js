@@ -11,7 +11,7 @@ import Footer from "./components/Footer.js"
 import Thanks from "./components/Thanks.js"
 import Menu from "./components/Menu.js"
 
-const TRACKING_ID = "UA-199894373-2";
+const TRACKING_ID = "UA-226515105-1";
 ReactGA.initialize(TRACKING_ID);
 
 const Home: React.FC = () => {
