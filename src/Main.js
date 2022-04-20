@@ -2,19 +2,20 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home.js";
-import Contact from "./pages/Contact";
 
-// const NoMatch: React.FC = () => {
-//     return <p>Error 404: Path not recognized.</p>;
-// };
+const TRACKING_ID = "UA-226515105-1";
+ReactGA.initialize(TRACKING_ID);
 
 const Main: React.FC = () => {
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname + window.location.search);
+    }, []);
+
     return (
         <BrowserRouter>
             {" "}
             <Routes>
                 <Route path="/" element={<Home />}></Route>
-                {/*<Route path="/contact" element={<Contact />}></Route>*/}
             </Routes>
         </BrowserRouter>
     );
