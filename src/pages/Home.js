@@ -1,6 +1,5 @@
 
-import React, {useEffect } from 'react'
-import ReactGA from 'react-ga'
+import React from 'react'
 import "./Home.css"
 import "./Scrollbar.css"
 import Intro from "./components/Intro.js"
