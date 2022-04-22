@@ -3,8 +3,10 @@ import React from "react"
 import "./Intro.css"
 import { UilLinkedin, 
          UilGithub,
-         UilInfoCircle } from "@iconscout/react-unicons"
+         UilInfoCircle,
+         UilFile } from "@iconscout/react-unicons"
 import Typewriter from 'typewriter-effect'
+import resume from "../../assets/jeremyLouieResume.pdf"
 
 const Intro: React.FC = () => {
     const iconSize = 35;
@@ -52,6 +54,11 @@ const Intro: React.FC = () => {
                         <a href="#about" title="About Me" className="animated_link">
                             <UilInfoCircle size={iconSize} className="icon" />   
                         </a>
+
+                        {/*resume*/}
+                        <a href={resume} title="My Resume" className="animated_link" target="_blank" rel="noreferrer">
+                            <UilFile size={iconSize} className="icon" />   
+                        </a>                        
                     </div>
                 </div>
             </div>

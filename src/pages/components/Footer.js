@@ -3,7 +3,9 @@ import React from "react"
 import "./Footer.css"
 import { UilLinkedin, 
          UilGithub,
-         UilEnvelope } from "@iconscout/react-unicons"
+         UilEnvelope,
+         UilFile } from "@iconscout/react-unicons"
+import resume from "../../assets/jeremyLouieResume.pdf"         
 
 const Footer: React.FC = () => {
     return (
@@ -20,6 +22,12 @@ const Footer: React.FC = () => {
                 <a href="https://github.com/jsethlui" target="_blank" rel="noreferrer" className="animated_link">
                     <UilGithub className="footer_icon" />
                 </a>
+
+                {/*resume*/}
+                <a href={resume} title="My Resume" className="animated_link" target="_blank" rel="noreferrer">
+                    <UilFile className="icon" />   
+                </a> 
+
             </div>
             <p>Website Developed by Jeremy Louie</p>
             <a href="https://github.com/jsethlui/Portfolio_v2" target="_blank" rel="noreferrer" className="code_link">
