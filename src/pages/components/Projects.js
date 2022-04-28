@@ -1,5 +1,5 @@
 
-import { React, useState, useRef } from "react"
+import React from "react"
 import ReactGA from 'react-ga';
 import "./Projects.css"
 import Image from "react-bootstrap/Image"
