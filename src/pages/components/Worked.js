@@ -35,9 +35,9 @@ const Worked: React.FC = () => {
                         </h2>
                         <p>November 2021 to Present</p>
                         <ul>
-                            <li>Responsible for migrating all data to Google Cloud</li>
-                            <li>Automatically migrated CSV data from Raspberry Pi to Firestore Database using Python Firestore API</li>
-                            <li>Developed UI for collecting data in order to abstract Git and CLI for Biologist Researchers using Python Curses</li>
+                            <li>Achieved greater project scalability by migrating all locally stored data from Raspberry Pi to Google Cloud Firestore Database</li>
+                            <li>Implemented automated data collection (when water flow passes through some sensor) using Python and RPI.GPIO library</li>
+                            <li>Reduced bugs and increased data collection productivity by developing GUI for Biologist Researchers</li>
                         </ul>
                         <div className="tools_wrapper">
                             <p>Technology & Tools</p>
