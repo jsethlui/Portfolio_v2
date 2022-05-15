@@ -6,7 +6,6 @@ import Row from "react-bootstrap/Row"
 import Avatar from "../../assets/avatar.jpg"
 
 const About: React.FC = () => {
-    const iconSize = 50;
     return (
         <div className="surround_wrapper">
             <div className="stats_wrapper">
