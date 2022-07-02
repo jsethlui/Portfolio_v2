@@ -3,7 +3,7 @@ import React from "react"
 import "./About.css"
 import Col from "react-bootstrap/Col"
 import Row from "react-bootstrap/Row"
-import Avatar from "../../assets/avatar.jpg"
+import Avatar from "../../assets/new_avatar.jpg"
 
 const About: React.FC = () => {
     return (
