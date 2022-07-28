@@ -1,6 +1,5 @@
 
 import React from 'react'
-import { useEffect } from 'react';
 import "./Home.css"
 import "./Scrollbar.css"
 import Intro from "./components/Intro.js"
