@@ -1,7 +1,9 @@
 
 import React from 'react'
+import { useEffect } from 'react';
 import "./Home.css"
 import "./Scrollbar.css"
+import ScrollReveal from 'scrollreveal'
 import Intro from "./components/Intro.js"
 import About from "./components/About.js"
 import Worked from "./components/Worked.js"
@@ -11,13 +13,18 @@ import Thanks from "./components/Thanks.js"
 import Menu from "./components/Menu.js"
 
 const Home: React.FC = () => {
+    useEffect(() => {
+        ScrollReveal().reveal('.headline')
+    }, []);
+
     return (
         <div className="body">
             <Menu />
             <Intro />
             
             <div id="about" />
-            <About />
+
+                <About />
 
             <div id="worked" />
             <Worked />
