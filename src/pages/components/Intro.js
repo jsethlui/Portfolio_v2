@@ -8,6 +8,7 @@ import { UilLinkedin,
 import Typewriter from 'typewriter-effect'
 import resume from "../../assets/jeremyLouieResume.pdf"
 
+
 const Intro: React.FC = () => {
     const iconSize = 35;
     return (
