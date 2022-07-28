@@ -19,7 +19,7 @@ const Worked: React.FC = () => {
             </div>
             <Tabs style={{display: "flex"}}>
                 <TabList>
-                    <Tab>Atlas Scientific</Tab>
+                    <Tab>UCLA Atlas Scientific</Tab>
                     <Tab>Pocket Racers</Tab>
                     <Tab>Juni Learning</Tab>
                 </TabList>
@@ -35,9 +35,10 @@ const Worked: React.FC = () => {
                         </h2>
                         <p>November 2021 to Present</p>
                         <ul>
-                            <li>Achieved greater project scalability by migrating all locally stored data from Raspberry Pi to Google Cloud Firestore Database</li>
-                            <li>Implemented automated data collection (when water flow passes through some sensor) using Python and RPI.GPIO library</li>
-                            <li>Reduced bugs and increased data collection productivity by developing GUI for Biologist Researchers</li>
+                            <li>Worked closely with Hardware Engineer, Lab Researchers, and Supervisors to develop smart water filtration system</li>
+                            <li>Improved efficiency by developing code to fully automate water data collection scripts</li>
+                            <li>Proposed and lead shift towards Google Cloud based system architecture</li>
+                            <li>Increased data scalability by leading transition towards Google Firestore</li>
                         </ul>
                         <div className="tools_wrapper">
                             <p>Technology & Tools</p>
@@ -61,10 +62,10 @@ const Worked: React.FC = () => {
                         </h2>
                         <p>November 2021 to Present</p>
                         <ul>
-                            <li>Reduced website maintenance costs by 100% by porting hosting platform from Squarespace to Github Pages</li>
-                            <li>Implemented consensually tracked user data using Google Analytics Reporting API</li>
-                            <li>Ported over Robert Operating System (ROS) from Raspberry Pi to Jetson Xavier NX to enable real-time Deep Reinforcement Learning</li>
-                            <li>Investigated Bayesian Optimization racing line strategies to calculate the shortest time traversed for an autonomous self-driving RC car</li>
+                            <li>Redesigned Pocket Racer’s website to promote project mission: to make self-driving autonomous cars more accessible and fun</li>
+                            <li>Implemented Google Analytics tracking, email services, and UI using HTML, CSS, and JavaScript</li>
+                            <li>Reduced website maintenance costs to 100% by switching from Squarespace to Github Pages</li>
+                            <li>Ported Robot Operating System from Raspberry Pi to Jetson Xavier NX to enable real-time deep RL</li>
                         </ul>
                         <div className="tools_wrapper">
                             <p>Technology & Tools</p>
