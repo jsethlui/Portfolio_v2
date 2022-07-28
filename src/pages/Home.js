@@ -3,7 +3,6 @@ import React from 'react'
 import { useEffect } from 'react';
 import "./Home.css"
 import "./Scrollbar.css"
-import ScrollReveal from 'scrollreveal'
 import Intro from "./components/Intro.js"
 import About from "./components/About.js"
 import Worked from "./components/Worked.js"
@@ -11,26 +10,28 @@ import Projects from "./components/Projects.js"
 import Footer from "./components/Footer.js"
 import Thanks from "./components/Thanks.js"
 import Menu from "./components/Menu.js"
+import Reveal from "react-reveal/Fade";
 
 const Home: React.FC = () => {
-    useEffect(() => {
-        ScrollReveal().reveal('.headline')
-    }, []);
-
     return (
         <div className="body">
             <Menu />
             <Intro />
             
-            <div id="about" />
-
+            <Reveal>
+                <div id="about" />
                 <About />
+            </Reveal>
 
-            <div id="worked" />
-            <Worked />
+            <Reveal>
+                <div id="worked" />
+                <Worked />
+            </Reveal>
 
-            <div id="projects" />
-            <Projects />
+            <Reveal>
+                <div id="projects" />
+                <Projects />
+            </Reveal>
 
             <div id="thanks" />
             <Thanks />
